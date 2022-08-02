@@ -59,11 +59,11 @@
     <aura:registerEvent name="EvtCmpSignatureResized" type="c:EvtCmpSignatureResized" description="window has been resized"/>
 
     <aura:handler name="EvtCmpSignatureChanged" event="c:EvtCmpSignatureChanged" action="{!c.change}" description="to clear error as soon as signature changes"/>
+    <aura:handler name="EvtCmpSignatureResized" event="c:EvtCmpSignatureResized" action="{!c.resize}" description="reload file if window resized"/>
     <aura:handler name="change" value="{!v.readOnly}" action="{!c.readOnlyChanged}"/>
     <aura:handler name="change" value="{!v.signatureText}" action="{!c.signatureTextChanged}"/>
     <aura:handler name="change" value="{!v.signatureTextFont}" action="{!c.signatureTextFontChanged}"/>
-    <aura:handler name="change" value="{!v.showSignatureLine}" action="{!c.showSignatureLineChanged}"/>
-    <aura:handler name="EvtCmpSignatureResized" event="c:EvtCmpSignatureResized" action="{!c.resize}" description="reload file if window resized"/>
+    <aura:handler name="change" value="{!v.showSignatureLine}" action="{!c.showSignatureLineChanged}"/>    
 
     <!--<ltng:require-->
             <!--scripts="{!join(',',-->
