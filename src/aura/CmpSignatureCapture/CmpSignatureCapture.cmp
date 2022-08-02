@@ -73,7 +73,7 @@
 
     <ltng:require
             scripts="{!join(',',
-            $Resource.jQuery,
+            
             $Resource.jSignature_Brinley)}"
             afterScriptsLoaded="{!c.scriptsLoaded}" />
 
