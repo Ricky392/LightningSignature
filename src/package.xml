@@ -6,6 +6,7 @@
         <members>EvtCmpSignatureChanged</members>
         <members>EvtCmpSignatureCleared</members>
         <members>EvtCmpSignatureFileCreated</members>
+        <members>c:EvtCmpSignatureResized</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
